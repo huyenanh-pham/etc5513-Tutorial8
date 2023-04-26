@@ -34,6 +34,7 @@ knitr::opts_chunk$set(echo = FALSE, cache=TRUE, messages=FALSE, warning=FALSE)
 library(ggplot2)
 library(tidyverse)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 library(lubridate)
 >>>>>>> 6342d924a40092967b92282d3e620460caf13d9e
@@ -50,6 +51,12 @@ covid <- read_csv(file = "data/worldwidecases.csv")
 # Get data US & Germany
 covid <- read_csv(here::here("data/worldwidecases.csv")) 
 >>>>>>> 6342d924a40092967b92282d3e620460caf13d9e
+=======
+```
+
+```{r data, message=FALSE}
+covid<-read_csv(file=here::here("data/worldwidecases.csv"))
+>>>>>>> tutorial-KN
 ```
 ```{r covid-s1}
 covidrate_vis_s1 <- covid %>%
@@ -66,6 +73,7 @@ facet_wrap(~countriesAndTerritories) +
 theme_bw() +
 ggtitle("Covid cases (rates)")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Section 3
 
@@ -88,6 +96,26 @@ covidrate_vis <- covid %>%
 covidrate_vis
 ```
 In figure \@ref(fig:France-Sweden) we observe corona virus cases in France and Sweden. 
+=======
+# Section 2
+
+```{r a, fig.cap="Rates of covid cases over time"}
+covidrate_vis <- covid %>% 
+mutate(date=as.Date(dateRep,format="%d/%m/%y"), cases_rates=((1000*cases/popData2018)+0.01), dead_rates=((1000*deaths/popData2018)+0.01))%>% dplyr::filter(date != "2020-12-31") %>% 
+  dplyr::filter(countriesAndTerritories %in% 
+                  c("Italy", 
+                    "Germany")) %>% 
+  ggplot(aes(x = date,y = cases_rates) ) + 
+  geom_line(color = "#1F9E8E") + facet_wrap(~countriesAndTerritories) + 
+  theme_bw() + 
+  ggtitle("Covidcases (rates)") 
+
+covidrate_vis
+```
+In figure, \@ref(fig:a) we observe the COVID-19 rates for Italy and Germany.
+
+
+>>>>>>> tutorial-KN
 
 =======
 covidrate_vis_s1
