@@ -32,6 +32,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache=TRUE, messages=FALSE, warning=FALSE)
 library(ggplot2)
+library(tidyverse)
+library(readr)
+library(knitr)
 ```
 
 
@@ -46,4 +49,16 @@ qplot(exp(rnorm(200)))
 Consider the logNormal data plotted in Figure \ref{fig:histogram}.
 
 $$s^2 = \sum_{i=1}^n (x_i-\bar{x})^2$$
+Section 4
+```{r}
+covid <- read.csv(here::here("data/worldwidecases.csv"))
+```
+
+```{r plot }
+plot <- covid %>%
+ggplot(aes(x= year, y = cases)) +
+  geom_line() +
+  facet_wrap(~countries)
+plot
+```
 
