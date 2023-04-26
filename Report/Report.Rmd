@@ -56,3 +56,5 @@ covidrate_vis
 ```
 In figure, \@ref(fig:a) we observe the COVID-19 rates for Italy and Germany.
 
+
+
