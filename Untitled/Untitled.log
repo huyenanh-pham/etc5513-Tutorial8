@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  26 APR 2023 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  26 APR 2023 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Report.tex
-(./Report.tex
+**Untitled.tex
+(./Untitled.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-04-20> (/Users/malinypo/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -926,8 +926,8 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 \@quotelevel=\count435
 \@quotereset=\count436
-(./Report.aux)
-\openout1 = `Report.aux'.
+(./Untitled.aux)
+\openout1 = `Untitled.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 292.
 LaTeX Font Info:    ... okay on input line 292.
@@ -981,9 +981,9 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 )
 Package hyperref Info: Link coloring ON on input line 292.
-(./Report.out) (./Report.out)
+(./Untitled.out) (./Untitled.out)
 \@outlinefile=\write4
-\openout4 = `Report.out'.
+\openout4 = `Untitled.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1029,11 +1029,11 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `Report.bcf'.
+\openout3 = `Untitled.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Report.bbl' found.
-(./Report.bbl)
+Package biblatex Info: ... file 'Untitled.bbl' found.
+(./Untitled.bbl)
 Package biblatex Info: Reference section=0 on input line 292.
 Package biblatex Info: Reference segment=0 on input line 292.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1316,42 +1316,38 @@ Overfull \hbox (56.23262pt too wide) detected at line 293
 {/Users/malinypo/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/malinypo/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/malinypo/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./monash2.png> <./MBSportrait.jpg> <./AACSB.png> <./EQUIS.png> <./AMBA.png>]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 13.82408pt on input line 296.
-<Report_files/figure-latex/France-Sweden-1.pdf, id=26, 433.62pt x 361.35pt>
-File: Report_files/figure-latex/France-Sweden-1.pdf Graphic file (type pdf)
-<use Report_files/figure-latex/France-Sweden-1.pdf>
-Package pdftex.def Info: Report_files/figure-latex/France-Sweden-1.pdf  used on input line 300.
-(pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 304.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 304.
+(Font)              scaled to size 10.51207pt on input line 300.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 300.
 
-LaTeX Warning: Empty bibliography on input line 309.
+Package caption Warning: Unused \captionsetup[figure] on input line 60.
+See the caption package documentation for explanation.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 61.
 See the caption package documentation for explanation.
 
-[2{/Users/malinypo/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc} <./Report_files/figure-latex/France-Sweden-1.pdf>] (./Report.aux)
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 3F5217D8420B98088BF7E131961ACD42;103.
-Package logreq Info: Writing requests to 'Report.run.xml'.
-\openout1 = `Report.run.xml'.
+[2{/Users/malinypo/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}] (./Untitled.aux)
+Package rerunfilecheck Info: File `Untitled.out' has not changed.
+(rerunfilecheck)             Checksum: 3477AB780B430B20874CFF88F35FC81B;115.
+Package logreq Info: Writing requests to 'Untitled.run.xml'.
+\openout1 = `Untitled.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26097 strings out of 477961
- 453005 string characters out of 5837496
+ 26285 strings out of 477961
+ 456659 string characters out of 5837496
  1858074 words of memory out of 5000000
- 45766 multiletter control sequences out of 15000+600000
- 610603 words of font info for 216 fonts, out of 8000000 for 9000
+ 45948 multiletter control sequences out of 15000+600000
+ 611156 words of font info for 222 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,14n,93p,1003b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,76p,1005b,1462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></Users/malinypo/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb>
-Output written on Report.pdf (2 pages, 469502 bytes).
+Output written on Untitled.pdf (2 pages, 463012 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 77863 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 77858 words of extra memory for PDF output out of 89155 (max. 10000000)
 
